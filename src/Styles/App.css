@@ -9,8 +9,8 @@ body {
 
 h1 {
    text-align: center;
-   background-color: black;
-   color: slategray;
+   background-color: rgba(0, 0, 0, 0.9);
+   color: #154f5a;
    padding: 1.25em;
    margin: 0;
 }
@@ -23,6 +23,7 @@ button {
    padding: 0.75em;
    width: 10%;
    font-size: 1.25em;
+   border: none;
 }
 
 button:hover {

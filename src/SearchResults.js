@@ -7,7 +7,7 @@ function SearchResults() {
    return (
       <div className={styles.div}>
          <h2>Results</h2>
-         <TrackList />
+         <TrackList parent="SearchResults"/>
       </div>
    )
 }
