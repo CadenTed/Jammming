@@ -35,8 +35,16 @@ function App() {
         <h1>Jamming</h1>
       </header>
       <SearchBar />
-      <SearchResults track={resultTrack} setTrack={setResultTrack}/>
-      <Playlist track={playlistTrack} setTrack={setPlaylistTrack}/>
+      <SearchResults
+        playlistTrack={playlistTrack} 
+        resultsTrack={resultTrack} 
+        setResultTrack={setResultTrack} 
+        setPlaylistTrack={setPlaylistTrack}/>
+      <Playlist 
+        playlistTrack={playlistTrack}
+        resultsTrack={resultTrack} 
+        setResultTrack={setResultTrack} 
+        setPLaylistTrack={setPlaylistTrack} />
       <button>Save to Spotify</button>
     </>
   );

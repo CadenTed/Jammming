@@ -2,17 +2,19 @@ import React, { useState } from "react";
 import Track from "./Track";
 import styles from "./Styles/Tracklist.module.css";
 
-function TrackList({parent, track}) {
-  const handleClick = ({target}) => {
-      console.log(target)
-  }
+function TrackList(props) {
 
   return (
     <div className={styles.div}>
       <ul className={styles.ul}>
-         {track.map((t, index) => (
-            <li key={t.id}><Track track={t} buttonSign={parent} handleClick={handleClick} /></li>
-            
+         {props.track.map((t) => (
+            <li key={t.id}>
+              <Track 
+                track={t} 
+                buttonSign={props.parent} 
+                handleClick={props.handleClick} 
+                keyValue={t.id}/>    
+            </li>
             ))}
       </ul>
     </div>
