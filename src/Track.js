@@ -5,8 +5,6 @@ function Track({track, buttonSign, handleClick}) {
 
    const sign = buttonSign === "PlayList" ? "-" : "+"
 
-   console.log(track)
-
    return (
       <div className={styles.div}>
          <h4>{track.title}</h4>

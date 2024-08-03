@@ -8,6 +8,7 @@
    background-color: rgba(4, 17, 27, 0.9);
    padding: 1em;
    color: #fce8c7;
+   position: absolute;
 }
 
 .input {

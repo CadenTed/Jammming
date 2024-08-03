@@ -3,17 +3,14 @@ import React, { useState } from "react";
 import styles from "./Styles/Playlist.module.css"
 import TrackList from "./Tracklist";
 
-function Playlist() {
-   const [tracks, setTracks] = useState([])
-
-
+function Playlist({track, setTrack}) {
 
    return (
       <div className={styles.div}>
          <form className={styles.form}>
             <input type="text" id='playlist-name' className={styles.input}/>
          </form>
-         <TrackList parent="PlayList"/>
+         <TrackList parent="PlayList" track={track}/>
       </div>
    )
 }
