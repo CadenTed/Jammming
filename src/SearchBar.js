@@ -1,11 +1,13 @@
 import React from "react";
+import styles from "./Styles/SearchBar.module.css"
+
 
 function SearchBar() {
   return (
-    <form>
-      <input type="text" id="search-bar" placeholder="Search for a song" />
+    <form className={styles.form}> 
+      <input type="text" id="search-bar" placeholder="Search for a song" className={styles.search}/>
       <br />
-      <button>Search</button>
+      <button className={styles.button}>Search</button>
     </form>
   );
 }

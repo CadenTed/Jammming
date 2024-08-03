@@ -1,0 +1,14 @@
+.div {
+  display: inline-block;
+  margin-left: 25%;
+  text-align: center;
+  width: 300px;
+  height: 35em;
+  background-color: rgba(4, 17, 27, 0.9);
+  color: #fce8c7;
+  padding: 1em 1em 1em 0;
+}
+
+.form {
+  margin: 0 auto;
+}

@@ -1,4 +1,4 @@
-import './App.css';
+import './Styles/App.css';
 import Playlist from './Playlist';
 import SearchBar from './SearchBar';
 import SearchResults from './SearchResults';
@@ -12,6 +12,7 @@ function App() {
       <SearchBar />
       <SearchResults />
       <Playlist />
+      <button>Save to Spotify</button>
     </>
   );
 }
