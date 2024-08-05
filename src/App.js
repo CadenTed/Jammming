@@ -44,7 +44,7 @@ function App() {
         playlistTrack={playlistTrack}
         resultsTrack={resultTrack} 
         setResultTrack={setResultTrack} 
-        setPLaylistTrack={setPlaylistTrack} />
+        setPlaylistTrack={setPlaylistTrack} />
       <button>Save to Spotify</button>
     </>
   );
